@@ -1,8 +1,7 @@
-const defaultColor = document.querySelector("#body-section");
+const defaultColor = document.querySelector("#bodySection");
 
 defaultColor.addEventListener('click', (event) =>{
     const colors = event.target.id;
-    console.log(colors)
     if(colors === "red"){
        document.body.style.backgroundColor = "#800e13";
     }

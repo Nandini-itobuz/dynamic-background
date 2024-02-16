@@ -1,13 +1,13 @@
-const colorBtn = document.getElementsByClassName("color-btn");
+const colorBtn = document.getElementsByClassName("colorBtn");
 const colorChage = document.getElementById('colorChange');
-const colorArray = ["d8e2dc", "ffe5d9", "ffcad4", "f4acb7", "9d8189"];
+const colorArray = ["590d22", "800f2f", "a4133c", "c9184a", "ff4d6d"];
 
 let counter = 0;
 
 function change() {
   if (counter === colorArray.length) {
     const createDiv = document.createElement("button");
-    createDiv.setAttribute("class","color-btn")
+    createDiv.setAttribute("class","colorBtn")
     createDiv.textContent = "Button Created";
     createDiv.style.marginBottom = "20px";
     colorChage.appendChild(createDiv);
