@@ -1,6 +1,6 @@
-let colorArray = ["d8e2dc", "ffe5d9", "ffcad4", "f4acb7", "9d8189"];
 const colorBtn = document.getElementsByClassName("color-btn");
 const colorChage = document.getElementById('colorChange');
+const colorArray = ["d8e2dc", "ffe5d9", "ffcad4", "f4acb7", "9d8189"];
 
 let counter = 0;
 
